@@ -142,7 +142,7 @@ def main():
 		if obstacle_y > s_height:
 			score = score + 1
 			obstacle_y = -200
-			obstacle_x = random.randrange(obstacle_width//2,s_breadth-obstacle_width//2)
+			obstacle_x = random.randrange(obstacle_width/2,s_breadth-obstacle_width/2)
 
 		maxi = max(maxi, score)
 
